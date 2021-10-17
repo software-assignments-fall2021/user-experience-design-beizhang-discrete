@@ -1,6 +1,10 @@
 # User Experience Design
 Team *beizhang-discrete* (All In Poker)
 
+## Prototype
+
+View our prototype [here](https://invis.io/6S11VJOI8ZME#/459784234_Wireframe_Home-Page).
+
 ## App Map & Wireframes
 
 ### App Map
