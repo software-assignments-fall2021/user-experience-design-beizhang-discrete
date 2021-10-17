@@ -15,27 +15,31 @@ Default start-up page in browser. Contains a header with a logo and the title of
 ![home page wireframe](./ux-design/wireframe_home-page.png)
 
 #### Login/Signup Page
-The user may fill in their information to log into an existing account or create a new one. We will also potentially have an option at the bottom to sign in with Google. Users logged in will see a modified home page and gain access to their user profile.
+The user may fill in their information to log into an existing account or create a new one. We will also potentially have an option at the bottom to sign in with Google (through an overlay). Users logged in will see a modified home page and gain access to their user profile.
 
 ![login page wireframe](./ux-design/wireframe_login-page.png)
+![google signin overlay wireframe](./ux-design/overlay_wireframes/wireframe_google-sign-in.png)
 
 #### User Profile Page
-Contains basic user information (such as username, profile picture, date joined, games played/won) and a list of friends, with incoming friend requests at the top. There is also a user search function at the bottom. 
+Contains basic user information (such as username, profile picture, date joined, games played/won) and a list of friends, with incoming friend requests at the top. There is also a user search button at the bottom that will pull up an overlay. 
 
 ![user profile page wireframe](./ux-design/wireframe_user-profile-page.png)
+![user search overlay wireframe](./ux-design/overlay_wireframes/wireframe_user-search-overlay.png)
 
 #### Join Table Page
-This page contains a list of information about live tables (which can be Open, Full, or Playing; private tables will not be shown), sorted by Open first. Players can choose *Quick Play* at the top to join a random open table, or choose *Join Private Table* at the bottom to join a friend-invite-only table. Choosing any option (assuming there is room at the table) will take the user to that table's page.
+This page contains a list of information about live tables (which can be Open, Full, or Playing; private tables will not be shown), sorted by Open first. Players can choose *Quick Play* at the top to join a random open table, or choose *Join Private Table* at the bottom to join a friend-invite-only table through an overlay. Choosing any option (assuming there is room at the table) will take the user to that table's page.
 
 ![join table page wireframe](./ux-design/wireframe_join-table-page.png)
+![pending invites overlay wireframe](./ux-design/overlay_wireframes/wireframe_pending-invites-overlay.png)
 
 #### Create Table Page
 This page contains user-adjustable parameters for creating a new table. Optionally, users can *Invite Friends*, which will pop up an overlay with a list of their friends to invite. Filling in valid fields and pressing *Create* will take the user to a page representing the table.
 
 ![create table page wireframe](./ux-design/wireframe_create-table-page.png)
+![invite friends overlay wireframe](./ux-design/overlay_wireframes/wireframe_invite-friends-overlay.png)
 
 #### Game Table Page
 This page contains the interface for playing the actual game, and the labels are self-explanatory. The player can see their own cards, stack size, the pot/community cards, and possible actions during the round. Choosing actions during your turn will cause the board to update. The bottom left *chat* button will open an overlay with recent chat history between the players.
 
 ![game table page wireframe](./ux-design/wireframe_table-page.png)
-
+![chat overlay wireframe](./ux-design/overlay_wireframes/wireframe_chat-overlay.png)
